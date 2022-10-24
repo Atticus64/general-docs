@@ -1,0 +1,29 @@
+{
+  "name": "general-docs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --fix",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "vue": "3.2.41"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.41.0",
+    "@typescript-eslint/parser": "5.41.0",
+    "@vitejs/plugin-vue": "3.1.2",
+    "@vue/eslint-config-typescript": "11.0.2",
+    "eslint": "8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "9.6.0",
+    "prettier": "2.7.1",
+    "typescript": "4.8.4",
+    "vite": "3.1.8",
+    "vue-tsc": "0.40.13"
+  }
+}
